@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # changable config variables:
-IMAGE_LOCATION="./tiles"
-TEMP_LOCATION="./temp"
-OS_LOGO="artix.png"
+IMAGE_LOCATION="../tiles"
+TEMP_LOCATION="../temp"
+OS_LOGO="os.png"
 #---
 asdf=""
 xrandr --listactivemonitors | grep -oE '[^ ]+$' | sed '1d' | while read -r line ; do
